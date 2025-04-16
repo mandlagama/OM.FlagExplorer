@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBomber" Version="6.0.2" />
+    <PackageReference Include="NBomber.Http" Version="6.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OM.FlagExplorer.Data\OM.FlagExplorer.Data.csproj" />
+    <ProjectReference Include="..\OM.FlagExplorer.Services.Api\OM.FlagExplorer.Services.Api.csproj" />
+  </ItemGroup>
+
+</Project>

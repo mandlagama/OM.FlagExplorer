@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OM.FlagExplorer.Data\OM.FlagExplorer.Data.csproj" />
+    <ProjectReference Include="..\OM.FlagExplorer.Services.Api\OM.FlagExplorer.Services.Api.csproj" />
+    <ProjectReference Include="..\OM.FlagExplorer.Services\OM.FlagExplorer.Services.csproj" />
+  </ItemGroup>
+
+</Project>
